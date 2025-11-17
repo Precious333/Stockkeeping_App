@@ -12,7 +12,13 @@ import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
 import { InventoryItem, getStockLevel } from '../types/inventory';
 import { formatPrice } from '../utils/format';
 
-export default function Dashboard({ navigation, items }) {
+interface DashboardProps {
+  navigation: any;
+  items: InventoryItem[];
+}
+
+export default function Dashboard({ navigation, items }: DashboardProps) {
+
   const totalItems = items.length;
 
   const lowStockItems = items.filter(
