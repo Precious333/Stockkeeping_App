@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "778787764168",
+    "project_id": "stockkeeping-e5466",
+    "storage_bucket": "stockkeeping-e5466.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778787764168:android:d3365de1cea9f29bd6b2fd",
+        "android_client_info": {
+          "package_name": "com.presidoadebisi.StockkeepingRN"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG1f9andCwFcX8Ss7dHFQzmRjNDBRJSZA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
